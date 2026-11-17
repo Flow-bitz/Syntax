@@ -1,6 +1,37 @@
 @import url(h3.css);
 
+
+/* CSS Selectors */
+/* This simply means how we select our HTML elements to style */
+
+/* Universal Selectors (*) */
+/* It selects all the elements in the HTML document */
+*{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Type Selectors (Tag selector) */
 h1{
     color: blueviolet;
     text-align: center;
 }
+
+/* ID Selectors (#id_name) */
+#main-heading{
+    font-size: 100px;
+}
+
+
+/* Class Selectors */
+
+
+/* Descendant Selectors */
+
+
+/* Child Selectors */
+
+
+/* Attribute Selectors */
