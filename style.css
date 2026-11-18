@@ -25,13 +25,25 @@ h1{
 }
 
 
-/* Class Selectors */
+/* Class Selectors (.class_name) */
+.paragraph{
+    color: chartreuse;
+}
 
 
-/* Descendant Selectors */
+/* Descendant Selectors (parent descendant) */
+.descendant p{
+    color: blue;
+}
 
 
-/* Child Selectors */
+/* Child Selectors (parent > child) */
+.child > p{
+    color: rgb(8, 183, 125);
+}
 
 
-/* Attribute Selectors */
+/* Attribute Selectors (tag[atr_name='value']) */
+a[href='#main-heading'] {
+    color: green;
+}
